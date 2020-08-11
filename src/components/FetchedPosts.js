@@ -2,7 +2,7 @@ import React from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import Post from "./Post";
 import {fetchPosts} from "./redux/actions";
-import {Loader} from "./loader";
+import {Loader} from "./Loader";
 
 
 export default () => {
